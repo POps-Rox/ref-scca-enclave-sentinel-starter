@@ -1,32 +1,26 @@
-# Description
+## Task Issue
 
->Thank you for your contribution !
+Closes #<!-- issue number -->
 
-> Please include a summary of the change and which issue is fixed.
-> Please also include the context.
-> List any dependencies that are required for this change.
+## Description
 
-## Pipeline references
-> For module/pipeline changes, please create and attach the status badge of your successful run.
+<!-- What changes does this PR make and why? -->
 
-| Pipeline |
-| - |
-| |
+## Checklist
 
-# Type of Change
+- [ ] Linked to task issue
+- [ ] Changes are minimal (only what the task requires)
+- [ ] Tests added/updated
+- [ ] All tests pass (`make test`)
+- [ ] Linting passes (`make lint`)
+- [ ] No secrets or credentials committed
+- [ ] Documentation updated (if applicable)
+- [ ] Follows project conventions (docs/conventions.md)
 
-Please delete options that are not relevant.
+## Reviewer Notes
 
-- [ ] Bugfix (non-breaking change which fixes an issue)
-- [ ] New feature (non-breaking change which adds functionality)
-- [ ] Breaking change (fix or feature that would cause existing functionality to not work as expected)
-- [ ] Update to documentation
+<!-- Anything reviewers should know or pay attention to -->
 
-# Checklist
+## Security Considerations
 
-- [ ] I'm sure there are no other open Pull Requests for the same update/change
-- [ ] My corresponding pipelines / checks run clean and green without any errors or warnings
-- [ ] My code follows the style guidelines of this project
-- [ ] I have commented my code, particularly in hard-to-understand areas
-- [ ] I have made corresponding changes to the documentation (readme)
-- [ ] I did format my code
+<!-- Any security implications of these changes? (new inputs, auth changes, dependency updates, etc.) -->
