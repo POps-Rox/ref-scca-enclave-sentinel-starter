@@ -34,7 +34,7 @@ variable "log_analytics_storage_account_replication_type" {
   type        = string
   default     = "GRS"
 }
-  
+
 #####################################
 # Log Solutions Configuration     ##
 #####################################

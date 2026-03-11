@@ -9,8 +9,8 @@ AUTHOR/S: jrspinella
 
 module "mod_sentinel" {
   providers = { azurerm = azurerm.security }
-  source  = "azurenoops/overlays-sentinel/azurerm"
-  version = "3.1.0"
+  source    = "azurenoops/overlays-sentinel/azurerm"
+  version   = "3.1.0"
 
   count = var.enable_sentinel ? 1 : 0
 

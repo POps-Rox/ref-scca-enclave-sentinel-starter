@@ -54,7 +54,7 @@ variable "security_subscription_id" {
   type        = string
   description = "If specified, identifies the subscription for exemption."
   sensitive   = true
-  default = null
+  default     = null
   validation {
     condition     = can(regex("^[a-z0-9-]{36}$", var.security_subscription_id)) || var.security_subscription_id == ""
     error_message = "Value must be a valid Subscription ID (GUID)."
@@ -79,10 +79,10 @@ variable "lock_level" {
 
 variable "existing_sec_laws_name" {
   description = "The name of the existing Log Analytics Workspace for security logs."
-  type        = string  
+  type        = string
 }
 
 variable "existing_sec_laws_rgname" {
   description = "The name of the existing Resource Group for the Log Analytics Workspace for security logs."
-  type        = string  
+  type        = string
 }

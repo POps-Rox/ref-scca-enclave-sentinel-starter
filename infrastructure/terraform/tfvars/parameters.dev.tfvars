@@ -7,7 +7,7 @@
 
 # The prefixes to use for all resources in this deployment
 org_name           = "anoa"   # This Prefix will be used on most deployed resources.  10 Characters max.
-deploy_environment = "dev"   # dev | test | prod
+deploy_environment = "dev"    # dev | test | prod
 environment        = "public" # public | usgovernment
 
 # The default region to deploy to

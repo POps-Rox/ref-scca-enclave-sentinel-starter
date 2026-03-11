@@ -35,8 +35,8 @@ terraform {
 }
 
 provider "azurerm" {
-  subscription_id = var.security_subscription_id
-  environment     = var.environment
+  subscription_id            = var.security_subscription_id
+  environment                = var.environment
   skip_provider_registration = var.environment == "usgovernment" ? true : false
   features {
     resource_group {
@@ -46,9 +46,9 @@ provider "azurerm" {
 }
 
 provider "azurerm" {
-  alias           = "security"
-  subscription_id = var.security_subscription_id
-  environment     = var.environment
+  alias                      = "security"
+  subscription_id            = var.security_subscription_id
+  environment                = var.environment
   skip_provider_registration = var.environment == "usgovernment" ? true : false
   features {
     resource_group {

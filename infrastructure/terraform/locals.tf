@@ -20,6 +20,6 @@ locals {
   resources_tags = merge(
     var.disable_base_module_tags ? local.empty_map : local.base_module_tags,
     var.default_tags,
-  )  
+  )
 }
 
