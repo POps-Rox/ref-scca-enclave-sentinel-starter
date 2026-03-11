@@ -9,7 +9,7 @@ AUTHOR/S: jrspinella
 
 module "mod_sentinel" {
   providers = { azurerm = azurerm.security }
-  source    = "azurenoops/overlays-sentinel/azurerm"
+  source    = "github.com/POps-Rox/tf-az-overlays-sentinel"
   version   = "3.1.0"
 
   count = var.enable_sentinel ? 1 : 0
