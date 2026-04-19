@@ -68,7 +68,7 @@ Azure NoOps Mission Enclave Sentinel starter supports the JFHQ-DODIN TASKORD 24-
 
 ### Required Installed Components
 
-These components are installed automatically as part of the [Azure NoOps Sentinel Overlay module](https://registry.terraform.io/modules/azurenoops/overlays-sentinel/azurerm/latest):
+These components are installed automatically as part of the [Azure NoOps Sentinel Overlay module](https://registry.terraform.io/modules/POps-Rox/overlays-sentinel/azurerm/latest):
 
 - Azure Monitor MS Entra Id Diagnostic Settings
 - Azure UBEA Solutions
